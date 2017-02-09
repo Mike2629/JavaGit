@@ -17,7 +17,7 @@ public class JaxbMain1 {
 		
 		try {
 
-			File file = new File("E:\\customer_address_map.xml");
+			File file = new File("D:\\customer_address_map.xml");
 			JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
 			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 

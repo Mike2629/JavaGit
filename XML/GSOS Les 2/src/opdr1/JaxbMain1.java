@@ -11,12 +11,12 @@ public class JaxbMain1 {
 	public static void main(String[] args){
 		Customer c = new Customer();
 		c.setName("John");
-		c.setAddress(new Address("","",1234));
+		c.setAddress(new Address("Ijsselstein","Dreesplein",1234));
 		c.setDateOfBirth(new Date());
 		
 		try {
 
-			File file = new File("E:\\XMLFILE.xml");
+			File file = new File("D:\\XMLFILE.xml");
 			JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
 			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 

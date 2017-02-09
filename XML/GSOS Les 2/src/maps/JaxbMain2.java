@@ -9,7 +9,7 @@ import javax.xml.bind.Unmarshaller;
 public class JaxbMain2 {
 	public static void main(String[] args) {
 		try {
-			File file = new File("E:\\customer_address_map.xml");
+			File file = new File("D:\\customer_address_map.xml");
 			JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
 			
 			Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
